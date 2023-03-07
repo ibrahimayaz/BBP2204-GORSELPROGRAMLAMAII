@@ -1,0 +1,1 @@
+//VERİ TİPLERİNİN KONTROLÜ
