@@ -3,8 +3,8 @@
 void main() {
 // Değişken tanımlama kuralı
   /// 1- Değişken adı sayi ile başlayamaz.
-  /// 2- Değişken adı özel karakter ile başlayamaz _ (alt tire) hariç.
-  /// 3- Aynı isme sahip iki değişken adı olamaz.
+  /// 2- Değişken adı özel karakter içeremez _ (alt tire) hariç.
+  /// 3- Aynı isme sahip iki değişken adı olamaz. Büyük küçük karf duyarlılığı vardır.
 
 //Sayısal veri tipleri
 
