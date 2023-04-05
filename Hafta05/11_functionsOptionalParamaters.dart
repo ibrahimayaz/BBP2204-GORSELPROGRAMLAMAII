@@ -1,13 +1,13 @@
 void main(List<String> args) {
-  print(Selam("Merhaba", isim: "İbrahim"));
+//   print(Selam("Merhaba", isim: "İbrahim"));
 
-// Fonksiyonun tüm parametereli isimli opsiyonel ise sırasının bir önemi yoktur.
-  print(Selam2(isim: "Mehmet", mesaj: "Merhaba"));
+// // Fonksiyonun tüm parametereli isimli opsiyonel ise sırasının bir önemi yoktur.
+//   print(Selam2(isim: "Mehmet", mesaj: "Merhaba"));
 
-//Varsayılan isimli opsiyonel parametre
-  print(Selam3(isim: "Cengiz"));
+// //Varsayılan isimli opsiyonel parametre
+//   print(Selam3(isim: "Cengiz"));
 
-  FiyatHesapla(birimFiyat: 1000, kdvDegeri: 1.18);
+//   FiyatHesapla(birimFiyat: 1000, kdvDegeri: 1.18);
 }
 
 //Opsiyonel parametreli fonksiyon
