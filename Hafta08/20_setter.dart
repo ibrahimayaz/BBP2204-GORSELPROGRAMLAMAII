@@ -9,7 +9,7 @@ void main(List<String> args) {
 
   print(b.bakiye1);
 
-  BKI bk = new BKI(178, 108);
+  BKI bk = new BKI(178, 88);
 
   print(bk.durum);
 }
