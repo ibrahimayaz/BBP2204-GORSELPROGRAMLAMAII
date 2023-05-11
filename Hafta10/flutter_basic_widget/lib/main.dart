@@ -21,7 +21,9 @@ class MyApp extends StatelessWidget {
           title: const Text("Merhaba Dünya"),
           actions: <Widget>[
             IconButton(
-              onPressed: () {},
+              onPressed: () {
+                print("Merhaba Bingöl");
+              },
               icon: const Icon(Icons.power),
             ),
             IconButton(
@@ -58,17 +60,17 @@ class MyApp extends StatelessWidget {
               children: <Widget>[
                 Column(
                   children: const <Widget>[
-                    Text("1"),
-                  ],
-                ),
-                Column(
-                  children: const <Widget>[
-                    Text("2"),
-                  ],
-                ),
-                Column(
-                  children: const <Widget>[
                     Text("3"),
+                  ],
+                ),
+                Column(
+                  children: const <Widget>[
+                    Text("4"),
+                  ],
+                ),
+                Column(
+                  children: const <Widget>[
+                    Text("5"),
                   ],
                 ),
                 ElevatedButton(
