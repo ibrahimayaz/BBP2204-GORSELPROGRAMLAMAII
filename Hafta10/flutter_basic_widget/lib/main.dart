@@ -37,21 +37,36 @@ class MyApp extends StatelessWidget {
             Row(
               children: <Widget>[
                 Column(
-                  children: const <Widget>[
-                    Text(
-                      "1",
-                      style: TextStyle(fontSize: 34, color: Colors.cyan),
+                  children: <Widget>[
+                    Container(
+                      width: 65,
+                      height: 65,
+                      color: Colors.red,
+                      child: const Text(
+                        "1",
+                        style: TextStyle(fontSize: 34, color: Colors.cyan),
+                      ),
+                    )
+                  ],
+                ),
+                Column(
+                  children: <Widget>[
+                    Container(
+                      width: 65,
+                      height: 65,
+                      color: Colors.yellow,
+                      child: const Text("2"),
+                    )
+                  ],
+                ),
+                Column(
+                  children: <Widget>[
+                    Container(
+                      width: 65,
+                      height: 65,
+                      color: Colors.blue,
+                      child: const Text("3"),
                     ),
-                  ],
-                ),
-                Column(
-                  children: const <Widget>[
-                    Text("2"),
-                  ],
-                ),
-                Column(
-                  children: const <Widget>[
-                    Text("3"),
                   ],
                 ),
               ],
